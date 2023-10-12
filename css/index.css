@@ -1,9 +1,25 @@
-body { line-height: 1; margin: auto; padding: auto; }
-html, body { width: 100%; height: 100%; overflow: hidden; }
-a:link { text-decoration: none; }
-.intro { position: absolute; left: 0; top:20%; padding: 0 20px;  width: 100%;  text-align: center; }
+body { 
+  line-height: 1;
+  margin: auto;
+  padding: auto;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+a:link {
+  text-decoration: none;
+}s
+.intro {
+  position: absolute;
+  left: 0;
+  top:20%;
+  padding: 0 20px;
+  width: 100%;
+  text-align: center;
+}
   h1 {
-    color: #fff;
+    color: black;
     text-transform: uppercase;
     font-size: 100px;
     font-weight: 700;
@@ -11,36 +27,45 @@ a:link { text-decoration: none; }
   }
   h1::after {
     content: '';
-    width: 200px;
+    width: 800px;
     display: block;
     background: #ffee58;
     height: 6px;
     margin: 30px auto;
     line-height: 1.1;
+
   }
   .btn {
     display: inline-block;
     padding: 15px 30px;
-    border: 2px solid #fff;
+    border: 2px solid black;
+    border-radius: 10px;
     text-transform: uppercase;
     letter-spacing: 0.015em;
     font-size: 18px;
     font-weight: 600;
     line-height: 1;
-    color: #fff;
+    height:7%;
+    width:12%;
+    color: black;
     text-decoration: none;
     -webkit-transition: all 0.4s;
        -moz-transition: all 0.4s;
          -o-transition: all 0.4s;
             transition: all 0.4s;
   }
+  .btn-initial {
+    background-color: transparent;
+    color:black; /* Set your desired background color */
+}
   .btn:hover {
     color: #000;
-    border-color: #fff;
-    background-color: #607d8b;
+    border-color: black;
+    background-color: #3479d4;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
   }
   h2 {
-    color: #ffd600;
+    color: #267fd3;
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 700;
@@ -65,13 +90,13 @@ a:link { text-decoration: none; }
     .btn {
     display: inline-block;
     padding: 5px 15px;
-    border: 2px solid #fff;
+    border: 2px solid black;
     text-transform: uppercase;
     letter-spacing: 0.009em;
     font-size: 13px;
     font-weight: 400;
     line-height: 1;
-    color: #fff;
+    color: black;
     text-decoration: none;
     -webkit-transition: all 0.4s;
        -moz-transition: all 0.4s;
@@ -84,13 +109,13 @@ a:link { text-decoration: none; }
     .btn {
     display: inline-block;
     padding: 5px 10px;
-    border: 1px solid #fff;
+    border: 2px solid black;
     text-transform: uppercase;
     letter-spacing: 0.005em;
     font-size: 10px;
     font-weight: 400;
     line-height: 1;
-    color: #fff;
+    color: black;
     text-decoration: none;
     -webkit-transition: all 0.4s;
        -moz-transition: all 0.4s;

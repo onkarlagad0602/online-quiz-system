@@ -10,21 +10,28 @@
         <style type="text/css">
             body {
                 width: 100%;
-                background: url(image/book.png) ;
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-size: cover;
+               
+            }
+            img{
+                height:150px;
+                width:150px;
+            }
+            h1{
+                color : black;
             }
         </style>
     </head>
     <body>
         <center>
+            <div class="img">
+                <img src="./image/logo.png"></img>
+            </div>
             <div class="intro">
-                <h1> online quiz system </h1>
-                <a href="login.php" class="btn"> login </a> &emsp;
-                <a href="register.php" class="btn"> register </a>
+                <h1> Online Quiz System </h1>
+                <a href="login.php" class="btn btn-initial" > login </a> &emsp;
+                <a href="register.php" class="btn btn-initial"> register </a>
                 <h2> Good &nbsp;Luck. </h2>
+                
             </div>
         </center>
     </body>

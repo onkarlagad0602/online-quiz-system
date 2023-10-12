@@ -243,12 +243,7 @@
                 
                                 for($i=1;$i<=@$_GET['n'];$i++)
                                 {
-                                    echo '<b>Question number&nbsp;'.$i.'&nbsp;:</><br /><!-- Text input-->
-                                            <div class="form-group">
-                                                <label class="col-md-12 control-label" for="qns'.$i.' ">
-                                                </label>  
-                                                <div class="col-md-12">
-                                                    <textarea rows="3" cols="5" name="qns'.$i.'" class="form-control" placeholder="Write question number '.$i.' here...">
+                                    echo '<b>Question number&nbsp;'.$i.'&nbsp;:</><br /><!-- Text input--><div class="form-group"><label class="col-md-12 control-label" for="qns'.$i.' "></label><div class="col-md-12"><textarea rows="3" cols="5" name="qns'.$i.'" class="form-control" placeholder="Write question number '.$i.' here...">
                                                     </textarea>  
                                                 </div>
                                             </div>
